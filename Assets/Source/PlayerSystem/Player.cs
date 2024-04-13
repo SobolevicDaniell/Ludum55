@@ -10,6 +10,7 @@ namespace PlayerSystem
         [field: SerializeField] public Transform PlayerTransform { get; private set; }
         [field: SerializeField] public float Height { get; private set; }
         [field: SerializeField] public LayerMask Ground { get; private set; }
+        [field: SerializeField] public LayerMask Items { get; private set; }
         [field: SerializeField] public float groundDrag;
         private bool _grounded;
         private void Update()
