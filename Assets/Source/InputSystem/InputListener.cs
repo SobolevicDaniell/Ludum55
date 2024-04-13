@@ -16,11 +16,6 @@ namespace InputSystem
             _player = player;
             _movement = movement;
         }
-        private void Update()
-        {
-            
-        }
-
         private void FixedUpdate()
         {
             ReadMove();
