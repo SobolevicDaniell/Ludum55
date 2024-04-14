@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4961444636396803181}
   - component: {fileID: 4961444636396803180}
   - component: {fileID: 4961444636396803179}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 4961444636877264634}
   - component: {fileID: 4961444636877264635}
   - component: {fileID: 4961444636877264636}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Material_Object
   m_TagString: MaterialObject
   m_Icon: {fileID: 0}
@@ -112,7 +112,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4961444636877264613}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.511, y: 2.648, z: -1.539}
   m_LocalScale: {x: 0.72, y: 0.72, z: 0.72}
   m_ConstrainProportionsScale: 1
