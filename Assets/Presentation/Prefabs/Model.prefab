@@ -100,6 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _material: 0
   _newObject: {fileID: 458261869163600370}
+  _leaf_tree_life_Prefab: {fileID: 771161153445615493, guid: fd6d2f4f6fa0ed34d91446482a40c628, type: 3}
 --- !u!135 &458261869163600380
 SphereCollider:
   m_ObjectHideFlags: 0

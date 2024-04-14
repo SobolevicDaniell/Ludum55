@@ -1,9 +1,11 @@
+using System;
 using UnityEngine;
 
 public class MaterialObject : MonoBehaviour
 {
     [SerializeField] private Materials _material;
     [SerializeField] private GameObject _newObject;
+    [SerializeField] private GameObject _leaf_tree_life_Prefab;
     
     private Collider _table;
     private bool _newObjectSpawned = false;
@@ -11,7 +13,18 @@ public class MaterialObject : MonoBehaviour
     private void Start()
     {
         _table = GameObject.FindWithTag("Table").GetComponent<Collider>();
+        if (_material == Materials.leaf_tree_life)
+        {
+            Debug.Log("Ok");
+            MeshFilter meshFilter = GetComponent<MeshFilter>();
+            MeshCollider meshCollider = GetComponent<MeshCollider>();
+
+            meshFilter.mesh = _leaf_tree_life_Prefab.GetComponent<Mesh>();
+            meshCollider = _leaf_tree_life_Prefab.GetComponent<MeshCollider>();
+        }
     }
+
+    
 
     private void OnCollisionEnter(Collision other)
     {
@@ -66,6 +79,7 @@ public class MaterialObject : MonoBehaviour
         MaterialObject newMaterialObject = newObject.GetComponent<MaterialObject>();
         newMaterialObject._material = materials;
         newMaterialObject._table = _table;
+        newMaterialObject._leaf_tree_life_Prefab = _leaf_tree_life_Prefab;
     }
 
     private Materials GetCombinedMaterial(Materials material1, Materials material2)
