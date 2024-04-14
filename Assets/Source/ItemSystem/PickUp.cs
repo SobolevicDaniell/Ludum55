@@ -32,7 +32,7 @@ namespace ItemSystem
                     Rigidbody childRb = child.GetComponent<Rigidbody>();
                     childRb.isKinematic = false;
                     childRb.useGravity = true;
-                    child.GetComponent<BoxCollider>().enabled = true;
+                    child.GetComponent<SphereCollider>().enabled = true;
                     child.parent = null;
                     _pickedUp = false;
                 }
@@ -42,7 +42,7 @@ namespace ItemSystem
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2));
-            if (Physics.Raycast(ray, out hit, 1f))
+            if (Physics.Raycast(ray, out hit, 2f))
             {
                 if ((pickUpLayer & (1 << hit.collider.gameObject.layer)) != 0)
                 {
@@ -55,7 +55,7 @@ namespace ItemSystem
                             Rigidbody collRb = hitColl.GetComponent<Rigidbody>();
                             collRb.isKinematic = true;
                             collRb.useGravity = false;
-                            hitColl.GetComponent<BoxCollider>().enabled = false;
+                            hitColl.GetComponent<SphereCollider>().enabled = false;
                             hitColl.transform.position = theDest.transform.position;
                             hitColl.transform.rotation = theDest.transform.rotation;
                             _pickedUp = true;
