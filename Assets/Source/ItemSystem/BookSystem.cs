@@ -7,6 +7,8 @@ namespace ItemSystem
 {
     public class BookSystem : MonoBehaviour
     {
+        public event Action stopCamera;
+        public event Action startCamera;
         [SerializeField] private GameObject bookMenu;
         private bool _isBookOpened = false;
         private Player _player;
@@ -37,6 +39,7 @@ namespace ItemSystem
                             Debug.Log("Opened book");
                             bookMenu.SetActive(true);
                             _isBookOpened = true;
+                            stopCamera?.Invoke();
                         }
                     }
                 }
@@ -52,6 +55,7 @@ namespace ItemSystem
                     Debug.Log("Closed book");
                     bookMenu.SetActive(false);
                     _isBookOpened = false;
+                    startCamera?.Invoke();
                 }
             }
         }
