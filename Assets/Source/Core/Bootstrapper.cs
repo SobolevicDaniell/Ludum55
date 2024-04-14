@@ -11,6 +11,7 @@ namespace Core
         [SerializeField] private InputListener inputListener;
         [SerializeField] private Player player;
         [SerializeField] private PickUp pickUp;
+        [SerializeField] private BookSystem book;
         private Movement _movement;
 
         private void Awake()
@@ -18,6 +19,7 @@ namespace Core
             _movement = new Movement();
             inputListener.Construct(player, _movement);
             pickUp.Construct(player);
+            book.Construct(player);
         }
     }
 }
