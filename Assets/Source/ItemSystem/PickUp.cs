@@ -32,7 +32,7 @@ namespace ItemSystem
                     Rigidbody childRb = child.GetComponent<Rigidbody>();
                     childRb.isKinematic = false;
                     childRb.useGravity = true;
-                    child.GetComponent<SphereCollider>().enabled = true;
+                    child.GetComponent<Collider>().enabled = true;
                     child.parent = null;
                     _pickedUp = false;
                 }
@@ -55,7 +55,7 @@ namespace ItemSystem
                             Rigidbody collRb = hitColl.GetComponent<Rigidbody>();
                             collRb.isKinematic = true;
                             collRb.useGravity = false;
-                            hitColl.GetComponent<SphereCollider>().enabled = false;
+                            hitColl.GetComponent<Collider>().enabled = false;
                             hitColl.transform.position = theDest.transform.position;
                             hitColl.transform.rotation = theDest.transform.rotation;
                             _pickedUp = true;
