@@ -16,7 +16,7 @@ public class Demon : MonoBehaviour
         if (_playerTransform != null)
         {
             Debug.Log("target");
-            Invoke("Activate", 2f);
+            Invoke("Activate", 8f);
         }
         else
         {

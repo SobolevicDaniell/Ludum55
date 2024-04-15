@@ -52,7 +52,7 @@ namespace ItemSystem
                         Rigidbody collRb = hitColl.GetComponent<Rigidbody>();
                         collRb.isKinematic = true;
                         collRb.useGravity = false;
-                        // hitColl.GetComponent<Collider>().enabled = false;
+                        hitColl.GetComponent<Collider>().enabled = false;
                         hitColl.transform.position = _theDest.transform.position;
                         //hitColl.transform.rotation = _theDest.transform.rotation;
                         _pickedUp = true;
