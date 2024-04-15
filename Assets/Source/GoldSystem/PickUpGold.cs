@@ -20,6 +20,7 @@ namespace GoldSystem
             if ((_player.Gold  & (1 << other.gameObject.layer)) != 0)
             {
                     _gold.AddScore(1);
+                    Destroy(other.gameObject);
                     Debug.Log("Get Gold");
             }
            
