@@ -1,6 +1,7 @@
 using System;
 using PlayerSystem;
 using UnityEngine;
+using UnityEngine.UI;
 using Camera = UnityEngine.Camera;
 
 namespace ItemSystem
@@ -11,6 +12,7 @@ namespace ItemSystem
         public event Action startCamera;
         [SerializeField] private GameObject bookMenu;
         [SerializeField] private GameObject[] allBookPages;
+        [SerializeField] private GameObject crosshair;
         private bool _isBookOpened = false;
         private Player _player;
 
@@ -40,6 +42,7 @@ namespace ItemSystem
                             bookMenu.SetActive(true);
                             _isBookOpened = true;
                             stopCamera?.Invoke();
+                            crosshair.SetActive(false);
                         }
                     }
                 }
@@ -58,6 +61,7 @@ namespace ItemSystem
                     }
                     _isBookOpened = false;
                     startCamera?.Invoke();
+                    crosshair.SetActive(true);
                 }
             }
         }
