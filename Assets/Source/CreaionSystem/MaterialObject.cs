@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MaterialObject : MonoBehaviour
 {
-    [SerializeField] private Materials _material;
+    [SerializeField] public Materials _material;
     [SerializeField] private GameObject _newObject;
 
     [SerializeField] private GameObject _sulfur;
@@ -115,7 +115,15 @@ public class MaterialObject : MonoBehaviour
         {
             transform.localScale = new Vector3(100, 100, 100);
         }
-        
+        else if (prefab == _destructive_mix)
+        {
+            transform.localScale = new Vector3( 0.02f,0.02f,0.02f);
+        }
+        else if (prefab == _explosive_potion)
+        {
+            transform.localScale = new Vector3( 1.5f,1.5f,1.5f);
+        }
+       
         // Добавьте аналогичные условия для остальных префабов
     }
 
