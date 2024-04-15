@@ -17,7 +17,7 @@ namespace Core
         private void Awake()
         {
             _movement = new Movement();
-            inputListener.Construct(player, _movement);
+            inputListener.Construct(player, _movement, book);
             pickUp.Construct(player);
             book.Construct(player);
         }
