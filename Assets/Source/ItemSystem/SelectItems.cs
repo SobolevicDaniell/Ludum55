@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using GoldSystem;
 using ItemSystem.MaterialsView;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
@@ -14,6 +15,7 @@ namespace ItemSystem
         [SerializeField] private Button buyButton;
         [SerializeField] private MaterialObject materialPrefab;
         [SerializeField] private Transform buyPosition;
+        [SerializeField] private TextMeshProUGUI costOfMaterial;
 
         private int _cost;
         private Gold _gold;
@@ -30,6 +32,8 @@ namespace ItemSystem
             {
                 view.OnMaterialSelected += SelectItem;
             }
+
+            costOfMaterial.text = "";
             buyButton.onClick.AddListener(BuyItem);
         }
 
@@ -37,6 +41,7 @@ namespace ItemSystem
         {
             _selectedMaterial = material;
             _cost = cost;
+            costOfMaterial.text = _cost.ToString();
         }
 
         private void BuyItem()

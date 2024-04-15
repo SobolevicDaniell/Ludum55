@@ -42,21 +42,5 @@ namespace ItemSystem.MaterialsView
             }
             return false;
         }
-        public bool GetDecayResourceIcon(MaterialObject.Materials type, out Sprite icon)
-        {
-            icon = null;
-            if (_materialViewDataSo)
-            {
-                foreach (var viewData in _materialViewDataSo.MaterialsViewDatas)
-                {
-                    if (viewData.MaterialsType == type)
-                    {
-                        icon = viewData.MaterialsIcon;
-                        return true;
-                    }
-                }
-            }
-            return false;
-        }
     }
 }

@@ -19,6 +19,7 @@ namespace ItemSystem.MaterialsView
 
         private void Start()
         {
+            text.text = "";
             Color newColor = new Color(0, 0, 0, 0);
             mainImage.color = newColor;
             _icon = GetComponent<Image>();
