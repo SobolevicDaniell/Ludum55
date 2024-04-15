@@ -14,6 +14,7 @@ public class CellAndDemon : MonoBehaviour
     [SerializeField] private AudioClip _groundImpactSound;
     [SerializeField] private AudioClip _applause;
     [SerializeField] private AudioClip _screams;
+    [SerializeField] private AudioClip _demon;
 
 
     [SerializeField] private GameObject _explosion;
@@ -117,6 +118,7 @@ public class CellAndDemon : MonoBehaviour
 
     private void SpawnDemon()
     {
+        _audioSource.PlayOneShot(_demon);
         Vector3 spawnPosition = _demonSpawnPosition.transform.position;
         Instantiate(_demonPrefab, spawnPosition, Quaternion.identity);
     }

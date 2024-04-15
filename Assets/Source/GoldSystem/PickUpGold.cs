@@ -8,6 +8,7 @@ namespace GoldSystem
     {
         private Player _player;
         private Gold _gold;
+        [SerializeField] private AudioClip _money;
 
         public void Construct(Player player, Gold gold)
         {
@@ -21,9 +22,18 @@ namespace GoldSystem
             {
                     _gold.AddScore(1);
                     Destroy(other.gameObject);
+                    _audioSource.PlayOneShot(_money);
                     Debug.Log("Get Gold");
             }
            
         }
+        
+        private AudioSource _audioSource;
+
+        private void Start()
+        {
+            _audioSource = GetComponent<AudioSource>();
+        }
+
     }
 }
