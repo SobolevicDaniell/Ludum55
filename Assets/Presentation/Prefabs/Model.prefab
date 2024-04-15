@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 458261869163600381}
   - component: {fileID: 458261869163600380}
   - component: {fileID: 458261869163600371}
+  - component: {fileID: 2305515631801994375}
   m_Layer: 7
   m_Name: Model
   m_TagString: MaterialObject
@@ -100,7 +101,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _material: 0
   _newObject: {fileID: 458261869163600370}
+  _sulfur: {fileID: 7260364184674340084, guid: ecb18c1f1c5830842b067cc1e40c9bef, type: 3}
+  _coal: {fileID: 6052966999169654339, guid: 1e3573632fb5d9942ad80c5ff314fe72, type: 3}
+  _mercury: {fileID: 5371487321479833956, guid: 6df8383d63ad5e44c9c52c185524025b, type: 3}
+  _carrot: {fileID: 264207298231230720, guid: 3fe6d57b644924747bba476af7f34445, type: 3}
+  _destructive_mix: {fileID: 0}
   _leaf_tree_life_Prefab: {fileID: 771161153445615493, guid: fd6d2f4f6fa0ed34d91446482a40c628, type: 3}
+  _heart_black_dragon: {fileID: 7230150898668729009, guid: af0d00fb6d81fb346bc841cdf7fc633c, type: 3}
+  _explosive_potion: {fileID: 0}
+  _tornado_potion: {fileID: 0}
+  _gap_potion: {fileID: 0}
+  _blue_flame_potion: {fileID: 0}
+  _infernal_potion: {fileID: 0}
+  _summoning_potion: {fileID: 0}
 --- !u!135 &458261869163600380
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -110,7 +123,7 @@ SphereCollider:
   m_GameObject: {fileID: 458261869163600370}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -130,3 +143,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &2305515631801994375
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458261869163600370}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}

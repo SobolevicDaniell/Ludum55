@@ -1,30 +1,123 @@
-using System;
 using UnityEngine;
 
 public class MaterialObject : MonoBehaviour
 {
     [SerializeField] private Materials _material;
     [SerializeField] private GameObject _newObject;
+
+    [SerializeField] private GameObject _sulfur;
+    [SerializeField] private GameObject _coal;
+    [SerializeField] private GameObject _mercury;
+    [SerializeField] private GameObject _carrot;
+    [SerializeField] private GameObject _destructive_mix;
     [SerializeField] private GameObject _leaf_tree_life_Prefab;
-    
+    [SerializeField] private GameObject _heart_black_dragon;
+    [SerializeField] private GameObject _explosive_potion;
+    [SerializeField] private GameObject _tornado_potion;
+    [SerializeField] private GameObject _gap_potion;
+    [SerializeField] private GameObject _blue_flame_potion;
+    [SerializeField] private GameObject _infernal_potion;
+    [SerializeField] private GameObject _summoning_potion;
+
     private Collider _table;
     private bool _newObjectSpawned = false;
 
     private void Start()
     {
         _table = GameObject.FindWithTag("Table").GetComponent<Collider>();
-        if (_material == Materials.leaf_tree_life)
-        {
-            Debug.Log("Ok");
-            MeshFilter meshFilter = GetComponent<MeshFilter>();
-            MeshCollider meshCollider = GetComponent<MeshCollider>();
 
-            meshFilter.mesh = _leaf_tree_life_Prefab.GetComponent<Mesh>();
-            meshCollider = _leaf_tree_life_Prefab.GetComponent<MeshCollider>();
+        MeshFilter meshFilter = GetComponent<MeshFilter>();
+        MeshCollider meshCollider = GetComponent<MeshCollider>();
+
+        if (meshFilter != null && meshCollider != null)
+        {
+            GameObject prefab = GetPrefabByMaterial(_material); // Получаем соответствующий префаб по материалу
+            if (prefab != null)
+            {
+                // Получаем меш и текстуру из префаба
+                Mesh newMesh = prefab.GetComponent<MeshFilter>().sharedMesh;
+                Texture newTexture = prefab.GetComponent<Renderer>().sharedMaterial.mainTexture;
+
+                // Устанавливаем меш и текстуру на создаваемый объект
+                meshFilter.mesh = newMesh;
+                meshCollider.sharedMesh = newMesh;
+                GetComponent<Renderer>().material.mainTexture = newTexture; // Устанавливаем текстуру
+
+                // Регулировка размера объекта в зависимости от типа материала
+                AdjustSize(prefab);
+            }
+            else
+            {
+                Debug.LogWarning("Prefab for material " + _material.ToString() + " is missing.");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("MeshFilter or MeshCollider component is missing. Unable to change mesh or collider.");
         }
     }
 
-    
+    private GameObject GetPrefabByMaterial(Materials material)
+    {
+        switch (material)
+        {
+            case Materials.sulfur:
+                return _sulfur;
+            case Materials.coal:
+                return _coal;
+            case Materials.mercury:
+                return _mercury;
+            case Materials.carrot:
+                return _carrot;
+            case Materials.destructive_mix:
+                return _destructive_mix;
+            case Materials.leaf_tree_life:
+                return _leaf_tree_life_Prefab;
+            case Materials.heart_black_dragon:
+                return _heart_black_dragon;
+            case Materials.explosive_potion:
+                return _explosive_potion;
+            case Materials.tornado_potion:
+                return _tornado_potion;
+            case Materials.gap_potion:
+                return _gap_potion;
+            case Materials.blue_flame_potion:
+                return _blue_flame_potion;
+            case Materials.infernal_potion:
+                return _infernal_potion;
+            case Materials.summoning_potion:
+                return _summoning_potion;
+            default:
+                return null;
+        }
+    }
+
+    private void AdjustSize(GameObject prefab)
+    {
+        // Регулировка размера объекта в зависимости от типа материала
+        if (prefab == _sulfur || prefab == _coal)
+        {
+            transform.localScale = new Vector3(18f, 18f, 18f);
+        }
+        else if (prefab == _leaf_tree_life_Prefab)
+        {
+            transform.localScale = new Vector3(190f, 190f, 190f);
+        }
+        else if (prefab == _heart_black_dragon)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+        else if (prefab == _mercury)
+        {
+            transform.localScale = new Vector3(2, 2, 2);
+        }
+        else if (prefab == _carrot)
+        {
+            transform.localScale = new Vector3(100, 100, 100);
+        }
+        
+        // Добавьте аналогичные условия для остальных префабов
+    }
 
     private void OnCollisionEnter(Collision other)
     {
@@ -41,7 +134,7 @@ public class MaterialObject : MonoBehaviour
                     CreateNewObject(otherMaterialObject);
                     _newObjectSpawned = true;
                     otherMaterialObject._newObjectSpawned = true;
-                
+
                     Destroy(gameObject);
                     Destroy(other.gameObject);
                 }
@@ -119,9 +212,8 @@ public class MaterialObject : MonoBehaviour
         {
             return Materials.summoning_potion;
         }
-        
+
         return Materials.sulfur;
-        
     }
 
     public enum Materials
