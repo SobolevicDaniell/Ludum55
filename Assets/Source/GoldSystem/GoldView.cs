@@ -16,12 +16,12 @@ namespace GoldSystem
         private void Start()
         {
             _gold.OnScoreChange += RefreshGoldText;
-            goldText.text = $"score: {_gold.GoldValue}";
+            goldText.text = $"{_gold.GoldValue}";
         }
 
         private void RefreshGoldText(int curScore)
         {
-            goldText.text = $"score: {curScore}";
+            goldText.text = $"{curScore}";
         }
 
         private void OnDisable()

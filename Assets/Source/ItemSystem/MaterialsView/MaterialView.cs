@@ -19,6 +19,8 @@ namespace ItemSystem.MaterialsView
 
         private void Start()
         {
+            Color newColor = new Color(0, 0, 0, 0);
+            mainImage.color = newColor;
             _icon = GetComponent<Image>();
             if (MaterialsViewService.Instance.GetMaterialIcon(materialType,
                     out Sprite processIcon, out _info, out _cost))
@@ -30,6 +32,8 @@ namespace ItemSystem.MaterialsView
 
         private void ChangeMainImg()
         {
+            Color newColor = new Color(1, 1, 1, 1);
+            mainImage.color = newColor;
             if (MaterialsViewService.Instance.GetMaterialIcon(materialType,
                     out Sprite processIcon, out _info, out _cost))
             {
