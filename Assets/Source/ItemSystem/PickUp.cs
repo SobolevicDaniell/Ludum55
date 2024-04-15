@@ -10,7 +10,6 @@ namespace ItemSystem
         private bool _pickedUp;
         private Player _player;
         [SerializeField] private LayerMask _pickUpLayer;
-        [SerializeField] private LayerMask _book;
 
         private void Update()
         {
