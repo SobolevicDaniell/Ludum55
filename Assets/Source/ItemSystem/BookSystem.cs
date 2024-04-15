@@ -13,18 +13,22 @@ namespace ItemSystem
         [SerializeField] private GameObject bookMenu;
         [SerializeField] private GameObject[] allBookPages;
         [SerializeField] private GameObject crosshair;
+        [SerializeField] private Button closeButton;
         private bool _isBookOpened = false;
         private Player _player;
 
         public void Construct(Player player)
         {
             _player = player;
+            closeButton.onClick.AddListener(CloseBook);
         }
-        
         private void Update()
         {
             OpenBook();
-            CloseBook();
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                CloseBook();
+            }
         }
 
         public void OpenBook()
@@ -39,6 +43,7 @@ namespace ItemSystem
                     {
                         if (Input.GetKeyDown(KeyCode.E))
                         {
+                            closeButton.gameObject.SetActive(true);
                             bookMenu.SetActive(true);
                             _isBookOpened = true;
                             stopCamera?.Invoke();
@@ -53,8 +58,7 @@ namespace ItemSystem
         {
             if (_isBookOpened)
             {
-                if (Input.GetKeyDown(KeyCode.Escape))
-                {
+                
                     for (int i = 0; i < allBookPages.Length; i++)
                     {
                         allBookPages[i].SetActive(false);
@@ -62,8 +66,9 @@ namespace ItemSystem
                     _isBookOpened = false;
                     startCamera?.Invoke();
                     crosshair.SetActive(true);
-                }
+                    closeButton.gameObject.SetActive(false);
             }
+            
         }
     }
 }
