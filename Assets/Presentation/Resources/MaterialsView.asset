@@ -13,17 +13,24 @@ MonoBehaviour:
   m_Name: MaterialsView
   m_EditorClassIdentifier: 
   <MaterialsViewDatas>k__BackingField:
-  - <MaterialsType>k__BackingField: 0
-    <MaterialsIcon>k__BackingField: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   - <MaterialsType>k__BackingField: 1
     <MaterialsIcon>k__BackingField: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+    <MaterialInfo>k__BackingField: Coal
   - <MaterialsType>k__BackingField: 2
     <MaterialsIcon>k__BackingField: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+    <MaterialInfo>k__BackingField: Mercury
   - <MaterialsType>k__BackingField: 3
     <MaterialsIcon>k__BackingField: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    <MaterialInfo>k__BackingField: Carrot
   - <MaterialsType>k__BackingField: 4
     <MaterialsIcon>k__BackingField: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    <MaterialInfo>k__BackingField: Destructive mix
   - <MaterialsType>k__BackingField: 5
     <MaterialsIcon>k__BackingField: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+    <MaterialInfo>k__BackingField: Leaf tree life
   - <MaterialsType>k__BackingField: 6
     <MaterialsIcon>k__BackingField: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    <MaterialInfo>k__BackingField: Heart black dragon
+  - <MaterialsType>k__BackingField: 0
+    <MaterialsIcon>k__BackingField: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    <MaterialInfo>k__BackingField: Sulfur

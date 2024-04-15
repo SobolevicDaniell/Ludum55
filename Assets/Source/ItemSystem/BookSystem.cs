@@ -36,7 +36,6 @@ namespace ItemSystem
                     {
                         if (Input.GetKeyDown(KeyCode.E))
                         {
-                            Debug.Log("Opened book");
                             bookMenu.SetActive(true);
                             _isBookOpened = true;
                             stopCamera?.Invoke();
@@ -52,7 +51,6 @@ namespace ItemSystem
             {
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
-                    Debug.Log("Closed book");
                     bookMenu.SetActive(false);
                     _isBookOpened = false;
                     startCamera?.Invoke();
