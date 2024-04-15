@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -401204382135912709}
   - component: {fileID: 4698099125709314015}
   - component: {fileID: -1319441703849387242}
+  - component: {fileID: 1382193046221954999}
   m_Layer: 9
   m_Name: Coin
   m_TagString: Untagged
@@ -228,3 +229,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &1382193046221954999
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7073136406730447449}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0041537844, y: 0.008219186, z: 0.009801424}
+  m_Center: {x: 0.00006547987, y: 0.00048744588, z: 0.0006492013}
