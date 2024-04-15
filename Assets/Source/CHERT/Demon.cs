@@ -57,6 +57,7 @@ public class Demon : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             SceneManager.LoadScene("MainMenu");
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 

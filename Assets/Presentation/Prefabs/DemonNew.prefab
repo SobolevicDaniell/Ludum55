@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _demonCollider: {fileID: -7935963287858498897}
-  _moveSpeed: 4
+  _moveSpeed: 2
 --- !u!64 &-7935963287858498897
 MeshCollider:
   m_ObjectHideFlags: 0
