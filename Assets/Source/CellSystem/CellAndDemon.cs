@@ -14,6 +14,10 @@ public class CellAndDemon : MonoBehaviour
     [SerializeField] private AudioClip _groundImpactSound;
     [SerializeField] private AudioClip _applause;
     [SerializeField] private AudioClip _screams;
+
+
+    [SerializeField] private GameObject _explosion;
+    
     private AudioSource _audioSource;
 
     private void Start()
@@ -31,6 +35,8 @@ public class CellAndDemon : MonoBehaviour
                 Destroy(materialObject.gameObject);
                 Applauses();
                 SpawnCoin(6);
+                _explosion.gameObject.SetActive(true);
+                Invoke("DeactivateExplosion", 2f);
                 
             }
             else if (materialObject._material == MaterialObject.Materials.fire_poison_potion)
@@ -75,6 +81,10 @@ public class CellAndDemon : MonoBehaviour
     // {
     //     _audioSource.PlayOneShot(_groundImpactSound);
     // }
+    private void DeactivateExplosion()
+    {
+        _explosion.SetActive(false);
+    }
 
     private void Applauses()
     {
