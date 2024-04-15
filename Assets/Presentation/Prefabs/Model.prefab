@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 458261869163600375}
   - component: {fileID: 458261869163600368}
   - component: {fileID: 458261869163600381}
-  - component: {fileID: 458261869163600380}
   - component: {fileID: 458261869163600371}
   - component: {fileID: 2305515631801994375}
   m_Layer: 7
@@ -29,14 +28,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458261869163600370}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -4.42, y: 2.648, z: 4.195}
   m_LocalScale: {x: 0.39, y: 0.39, z: 0.39}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!33 &458261869163600375
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -115,19 +114,6 @@ MonoBehaviour:
   _blue_flame_potion: {fileID: 1957814147211300290, guid: 88cddc4a769c925499ede5b43b5f1485, type: 3}
   _infernal_potion: {fileID: 7530193334946628187, guid: 2c599ebf6c4c2734ab4683b584b20758, type: 3}
   _summoning_potion: {fileID: 4250393322969867316, guid: 9bcea5a3b3da1364d8eaa94dd6e4c937, type: 3}
---- !u!135 &458261869163600380
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 458261869163600370}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &458261869163600371
 Rigidbody:
   m_ObjectHideFlags: 0
