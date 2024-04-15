@@ -50,7 +50,7 @@ namespace ItemSystem
         {
             if (_isBookOpened)
             {
-                if (Input.GetKeyDown(KeyCode.Q))
+                if (Input.GetKeyDown(KeyCode.Escape))
                 {
                     for (int i = 0; i < allBookPages.Length; i++)
                     {
