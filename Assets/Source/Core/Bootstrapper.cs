@@ -15,6 +15,8 @@ namespace Core
         [SerializeField] private PickUp pickUp;
         [SerializeField] private BookSystem book;
         [SerializeField] private GoldView goldView;
+        [SerializeField] private SelectItems selectItems;
+        [SerializeField] private PickUpGold pickUpGold;
         private Movement _movement;
         private Gold _gold;
 
@@ -26,6 +28,9 @@ namespace Core
             pickUp.Construct(player);
             book.Construct(player);
             goldView.Construct(_gold);
+            selectItems.Construct(_gold);
+            _gold.SetUpScore();
+            pickUpGold.Construct(player, _gold);
         }
     }
 }

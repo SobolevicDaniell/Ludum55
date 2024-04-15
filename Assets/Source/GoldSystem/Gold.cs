@@ -5,7 +5,7 @@ namespace GoldSystem
 {
     public class Gold 
     {
-        public const int StartValue = 0;
+        public const int StartValue = 100;
         private const int EndValue = 0;
         
         public int GoldValue { get; private set; }

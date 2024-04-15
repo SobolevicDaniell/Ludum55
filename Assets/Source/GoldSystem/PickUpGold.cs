@@ -14,7 +14,8 @@ namespace GoldSystem
             _player = player;
             _gold = gold;
         }
-        private void OnCollisionEnter2D(Collision2D other)
+        
+        private void OnCollisionEnter(Collision other)
         {
             if ((_player.Gold  & (1 << other.gameObject.layer)) != 0)
             {
