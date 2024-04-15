@@ -17,6 +17,12 @@ public class CellAndDemon : MonoBehaviour
 
 
     [SerializeField] private GameObject _explosion;
+    [SerializeField] private GameObject _fire;
+    [SerializeField] private GameObject _greenFire;
+    [SerializeField] private GameObject _redFire;
+    [SerializeField] private GameObject _blueFire;
+    [SerializeField] private GameObject _blueDarckFire;
+    [SerializeField] private GameObject _fell;
     
     private AudioSource _audioSource;
 
@@ -36,7 +42,7 @@ public class CellAndDemon : MonoBehaviour
                 Applauses();
                 SpawnCoin(6);
                 _explosion.gameObject.SetActive(true);
-                Invoke("DeactivateExplosion", 2f);
+                Invoke("DeactivateExplosion", 1.7f);
                 
             }
             else if (materialObject._material == MaterialObject.Materials.fire_poison_potion)
@@ -44,35 +50,46 @@ public class CellAndDemon : MonoBehaviour
                 Destroy(materialObject.gameObject);
                 Applauses();
                 SpawnCoin(9);
+                _fire.gameObject.SetActive(true);
+                Invoke("DeactivateExplosion", 1.7f);
             }
             else if (materialObject._material == MaterialObject.Materials.tornado_potion)
             {
                 Destroy(materialObject.gameObject);
                 Applauses();
                 SpawnCoin(13);
+                _greenFire.gameObject.SetActive(true);
+                Invoke("DeactivateExplosion", 1.7f);
             }
             else if (materialObject._material == MaterialObject.Materials.gap_potion)
             {
                 Destroy(materialObject.gameObject);
                 Applauses();
                 SpawnCoin(16);
+                _redFire.gameObject.SetActive(true);
+                Invoke("DeactivateExplosion", 1.7f);
             }
             else if (materialObject._material == MaterialObject.Materials.blue_flame_potion)
             {
                 Destroy(materialObject.gameObject);
                 Applauses();
                 SpawnCoin(26);
+                _blueFire.gameObject.SetActive(true);
+                Invoke("DeactivateExplosion", 1.7f);
             }
             else if (materialObject._material == MaterialObject.Materials.infernal_potion)
             {
                 Destroy(materialObject.gameObject);
                 Applauses();
                 SpawnCoin(38);
+                _blueDarckFire.gameObject.SetActive(true);
+                Invoke("DeactivateExplosion", 1.7f);
             }
             else if (materialObject._material == MaterialObject.Materials.summoning_potion)
             {
                 Destroy(materialObject.gameObject);
                 SpawnDemon();
+                _fell.gameObject.SetActive(true);
             }
         }
     }
@@ -84,6 +101,12 @@ public class CellAndDemon : MonoBehaviour
     private void DeactivateExplosion()
     {
         _explosion.SetActive(false);
+        _fire.SetActive(false);
+        _greenFire.SetActive(false);
+        _redFire.SetActive(false);
+        _blueFire.SetActive(false);
+        _blueDarckFire.SetActive(false);
+        
     }
 
     private void Applauses()
