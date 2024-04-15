@@ -10,6 +10,7 @@ namespace ItemSystem
         public event Action stopCamera;
         public event Action startCamera;
         [SerializeField] private GameObject bookMenu;
+        [SerializeField] private GameObject[] allBookPages;
         private bool _isBookOpened = false;
         private Player _player;
 
@@ -51,7 +52,10 @@ namespace ItemSystem
             {
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
-                    bookMenu.SetActive(false);
+                    for (int i = 0; i < allBookPages.Length; i++)
+                    {
+                        allBookPages[i].SetActive(false);
+                    }
                     _isBookOpened = false;
                     startCamera?.Invoke();
                 }

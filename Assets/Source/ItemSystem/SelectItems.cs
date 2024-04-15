@@ -11,6 +11,8 @@ namespace ItemSystem
     {
         [SerializeField] private List<MaterialView> materialViews;
         [SerializeField] private Button buyButton;
+        [SerializeField] private MaterialObject materialPrefab;
+        [SerializeField] private Transform buyPosition;
         private MaterialObject.Materials _selectedMaterial;
         
         private void Start()
@@ -30,6 +32,8 @@ namespace ItemSystem
         private void BuyItem()
         {
             Debug.Log($"You bought {_selectedMaterial.ToString()}");
+            materialPrefab._material = _selectedMaterial;
+            Instantiate(materialPrefab, buyPosition);
         }
     }
 }
