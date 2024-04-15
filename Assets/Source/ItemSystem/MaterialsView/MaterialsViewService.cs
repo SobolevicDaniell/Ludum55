@@ -22,9 +22,10 @@ namespace ItemSystem.MaterialsView
             }
         }
 
-        public bool GetMaterialIcon(MaterialObject.Materials type, out Sprite icon)
+        public bool GetMaterialIcon(MaterialObject.Materials type, out Sprite icon, out string info)
         {
             icon = null;
+            info = null;
             if (_materialViewDataSo)
             {
                 foreach (var viewData in _materialViewDataSo.MaterialsViewDatas)
@@ -32,6 +33,7 @@ namespace ItemSystem.MaterialsView
                     if (viewData.MaterialsType == type)
                     {
                         icon = viewData.MaterialsIcon;
+                        info = viewData.MaterialInfo;
                         return true;
                     }
                 }
