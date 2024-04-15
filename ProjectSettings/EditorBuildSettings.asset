@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Presentation/Scenes/MainMenu.unity
     guid: 711a716159a5ebf43b6065f71d124841
   - enabled: 1
+    path: Assets/Presentation/Scenes/Game.unity
+    guid: c4104cb005b5da64ab3caf2e76355697
+  - enabled: 0
     path: Assets/Presentation/Scenes/TestMovementScene.unity
     guid: 4a1f0b2365b7d99478f55b0fa08e9cda
   m_configObjects: {}
