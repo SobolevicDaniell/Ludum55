@@ -12,6 +12,7 @@ namespace PlayerSystem
         [field: SerializeField] public LayerMask Ground { get; private set; }
         [field: SerializeField] public LayerMask Items { get; private set; }
         [field: SerializeField] public LayerMask Book { get; private set; }
+        [field: SerializeField] public LayerMask Gold { get; private set; }
         [field: SerializeField] public float groundDrag;
         private bool _grounded;
         private void Update()
