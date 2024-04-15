@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39ae94d12834f934dba31cac6133dee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _material: 4
+  _material: 0
   _newObject: {fileID: 458261869163600370}
   _sulfur: {fileID: 7260364184674340084, guid: ecb18c1f1c5830842b067cc1e40c9bef, type: 3}
   _coal: {fileID: 6052966999169654339, guid: 1e3573632fb5d9942ad80c5ff314fe72, type: 3}
@@ -109,11 +109,12 @@ MonoBehaviour:
   _leaf_tree_life_Prefab: {fileID: 771161153445615493, guid: fd6d2f4f6fa0ed34d91446482a40c628, type: 3}
   _heart_black_dragon: {fileID: 7230150898668729009, guid: af0d00fb6d81fb346bc841cdf7fc633c, type: 3}
   _explosive_potion: {fileID: 8733800021369694767, guid: cf96a9354d29a1449a3692178a4fef5b, type: 3}
-  _tornado_potion: {fileID: 0}
-  _gap_potion: {fileID: 0}
-  _blue_flame_potion: {fileID: 0}
-  _infernal_potion: {fileID: 0}
-  _summoning_potion: {fileID: 0}
+  _fire_poison_potion: {fileID: 4995880641505120729, guid: cef0a61084ae5f14b955cfa69b85118a, type: 3}
+  _tornado_potion: {fileID: 5277866392509861351, guid: 0a59f4c48ec2d41489f37dc71da54886, type: 3}
+  _gap_potion: {fileID: 3850824806595956366, guid: 48d3ea61a8dd3344493af239627530e5, type: 3}
+  _blue_flame_potion: {fileID: 1957814147211300290, guid: 88cddc4a769c925499ede5b43b5f1485, type: 3}
+  _infernal_potion: {fileID: 7530193334946628187, guid: 2c599ebf6c4c2734ab4683b584b20758, type: 3}
+  _summoning_potion: {fileID: 4250393322969867316, guid: 9bcea5a3b3da1364d8eaa94dd6e4c937, type: 3}
 --- !u!135 &458261869163600380
 SphereCollider:
   m_ObjectHideFlags: 0

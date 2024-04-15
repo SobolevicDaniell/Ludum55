@@ -13,6 +13,7 @@ public class MaterialObject : MonoBehaviour
     [SerializeField] private GameObject _leaf_tree_life_Prefab;
     [SerializeField] private GameObject _heart_black_dragon;
     [SerializeField] private GameObject _explosive_potion;
+    [SerializeField] private GameObject _fire_poison_potion;
     [SerializeField] private GameObject _tornado_potion;
     [SerializeField] private GameObject _gap_potion;
     [SerializeField] private GameObject _blue_flame_potion;
@@ -77,6 +78,8 @@ public class MaterialObject : MonoBehaviour
                 return _heart_black_dragon;
             case Materials.explosive_potion:
                 return _explosive_potion;
+            case Materials.fire_poison_potion:
+                return _fire_poison_potion;
             case Materials.tornado_potion:
                 return _tornado_potion;
             case Materials.gap_potion:
@@ -119,12 +122,16 @@ public class MaterialObject : MonoBehaviour
         {
             transform.localScale = new Vector3( 0.02f,0.02f,0.02f);
         }
-        else if (prefab == _explosive_potion)
+        else if (prefab == _explosive_potion ||
+                 prefab == _fire_poison_potion ||
+                 prefab == _tornado_potion ||
+                 prefab == _gap_potion ||
+                 prefab == _blue_flame_potion ||
+                 prefab == _infernal_potion ||
+                 prefab == _summoning_potion)
         {
             transform.localScale = new Vector3( 1.5f,1.5f,1.5f);
         }
-       
-        // Добавьте аналогичные условия для остальных префабов
     }
 
     private void OnCollisionEnter(Collision other)
