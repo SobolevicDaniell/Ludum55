@@ -570,6 +570,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3936886313486788760, guid: e6500753f566b4147a1db44fdfc3db73, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 3936886313486788769, guid: e6500753f566b4147a1db44fdfc3db73, type: 3}
       propertyPath: _theDest
       value: 
@@ -4371,107 +4375,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1975959190090480, guid: eca000ab44c908d4dab395f654753038, type: 3}
   m_PrefabInstance: {fileID: 781726844}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &784986138 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7917675216728663354, guid: 66c9f1740257c614784a3dbdbc809cfd, type: 3}
-  m_PrefabInstance: {fileID: 7917675216690019720}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &784986143
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784986138}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 1839807076581213360, guid: 4c1a3f1b28af4b84993c25c30e9cbb7b, type: 2}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!4 &792162651 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8310695755371660497, guid: ee7570f77306ec24aab52e81966938f7, type: 3}
@@ -12376,14 +12279,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 781726846}
     - target: {fileID: 7917675216728663344, guid: 66c9f1740257c614784a3dbdbc809cfd, type: 3}
-      propertyPath: _screams
-      value: 
-      objectReference: {fileID: 8300000, guid: 5d184d57e48434949bc9543e3c0a3379, type: 3}
-    - target: {fileID: 7917675216728663344, guid: 66c9f1740257c614784a3dbdbc809cfd, type: 3}
-      propertyPath: _applause
-      value: 
-      objectReference: {fileID: 8300000, guid: 1ef22d9ad4264a64aaf7bf30de5d8402, type: 3}
-    - target: {fileID: 7917675216728663344, guid: 66c9f1740257c614784a3dbdbc809cfd, type: 3}
       propertyPath: _blueFire
       value: 
       objectReference: {fileID: 1464637303}
@@ -12399,10 +12294,6 @@ PrefabInstance:
       propertyPath: _blueDarckFire
       value: 
       objectReference: {fileID: 636950581}
-    - target: {fileID: 7917675216728663344, guid: 66c9f1740257c614784a3dbdbc809cfd, type: 3}
-      propertyPath: _groundImpactSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 19d97f6b380263d44b804941a93140ec, type: 3}
     - target: {fileID: 7917675216728663344, guid: 66c9f1740257c614784a3dbdbc809cfd, type: 3}
       propertyPath: _demonSpawnPosition
       value: 
