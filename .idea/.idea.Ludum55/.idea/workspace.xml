@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f48b138d-b638-413a-9afc-cdb457d9ca30" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Ludum55/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ludum55/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Prefabs/Main Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Prefabs/Main Camera.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Prefabs/Model.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Prefabs/Model.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Prefabs/BookCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Prefabs/BookCanvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Resources/MaterialsView.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Resources/MaterialsView.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Presentation/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/CreaionSystem/MaterialObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/CreaionSystem/MaterialObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bilds/Build.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Bilds/Build.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bilds/Build/Bilds.data" beforeDir="false" afterPath="$PROJECT_DIR$/Bilds/Build/Bilds.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bilds/TemplateData.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +99,7 @@
       <updated>1712999131297</updated>
       <workItem from="1712999133843" duration="5723000" />
       <workItem from="1713343239347" duration="3674000" />
-      <workItem from="1713349225119" duration="167000" />
+      <workItem from="1713349225119" duration="1659000" />
     </task>
     <servers />
   </component>

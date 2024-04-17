@@ -279,7 +279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 916e7f1a0bba1ab43b71b3d9a9ea2d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialType: 0
+  materialType: 1
   mainImage: {fileID: 1503759650612165874}
   text: {fileID: 1503759649105009533}
   thisButton: {fileID: 1503759649099100137}
@@ -573,8 +573,8 @@ RectTransform:
   - {fileID: 1834299440404187642}
   - {fileID: 1503759650297407925}
   - {fileID: 1503759650361275549}
-  - {fileID: 1503759650828233485}
   - {fileID: 4495100696875128464}
+  - {fileID: 1503759650828233485}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -888,7 +888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 916e7f1a0bba1ab43b71b3d9a9ea2d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialType: 6
+  materialType: 7
   mainImage: {fileID: 1503759650612165874}
   text: {fileID: 1503759649105009533}
   thisButton: {fileID: 1503759649654212907}
@@ -1026,7 +1026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 916e7f1a0bba1ab43b71b3d9a9ea2d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialType: 2
+  materialType: 3
   mainImage: {fileID: 1503759650612165874}
   text: {fileID: 1503759649105009533}
   thisButton: {fileID: 1503759649822414685}
@@ -1309,7 +1309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 916e7f1a0bba1ab43b71b3d9a9ea2d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialType: 1
+  materialType: 2
   mainImage: {fileID: 1503759650612165874}
   text: {fileID: 1503759649105009533}
   thisButton: {fileID: 1503759650015065392}
@@ -2079,7 +2079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 916e7f1a0bba1ab43b71b3d9a9ea2d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialType: 4
+  materialType: 5
   mainImage: {fileID: 1503759650612165874}
   text: {fileID: 1503759649105009533}
   thisButton: {fileID: 1503759650404603626}
@@ -2406,7 +2406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 916e7f1a0bba1ab43b71b3d9a9ea2d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialType: 3
+  materialType: 4
   mainImage: {fileID: 1503759650612165874}
   text: {fileID: 1503759649105009533}
   thisButton: {fileID: 1503759650711017385}
@@ -2626,7 +2626,7 @@ RectTransform:
   - {fileID: 1503759650131667812}
   - {fileID: 1503759649935225800}
   m_Father: {fileID: 1503759649642262987}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2950,7 +2950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 916e7f1a0bba1ab43b71b3d9a9ea2d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialType: 5
+  materialType: 6
   mainImage: {fileID: 1503759650612165874}
   text: {fileID: 1503759649105009533}
   thisButton: {fileID: 1503759651226756054}
@@ -3267,7 +3267,7 @@ RectTransform:
   - {fileID: 2307107137086202309}
   - {fileID: 3350935831569785813}
   m_Father: {fileID: 1503759649642262987}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
