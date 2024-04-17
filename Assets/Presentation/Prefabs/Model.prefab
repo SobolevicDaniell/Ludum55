@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &458261869163600370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 458261869163600374}
+  - component: {fileID: 458261869163600375}
+  - component: {fileID: 458261869163600368}
+  - component: {fileID: 458261869163600381}
+  - component: {fileID: 458261869163600371}
+  - component: {fileID: 2305515631801994375}
+  - component: {fileID: 3005128905746279189}
+  - component: {fileID: 5836644136358708872}
+  m_Layer: 7
+  m_Name: Model
+  m_TagString: MaterialObject
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &458261869163600374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458261869163600370}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -4.42, y: 2.648, z: 4.195}
+  m_LocalScale: {x: 0.39, y: 0.39, z: 0.39}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &458261869163600375
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458261869163600370}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &458261869163600368
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458261869163600370}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &458261869163600381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458261869163600370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ae94d12834f934dba31cac6133dee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _material: 1
+  _newObject: {fileID: 458261869163600370}
+  _sulfur: {fileID: 7260364184674340084, guid: ecb18c1f1c5830842b067cc1e40c9bef, type: 3}
+  _coal: {fileID: 6052966999169654339, guid: 1e3573632fb5d9942ad80c5ff314fe72, type: 3}
+  _mercury: {fileID: 5371487321479833956, guid: 6df8383d63ad5e44c9c52c185524025b, type: 3}
+  _carrot: {fileID: 264207298231230720, guid: 3fe6d57b644924747bba476af7f34445, type: 3}
+  _destructive_mix: {fileID: 4673122756676867035, guid: fe35971349de35747aa08ce605c22d33, type: 3}
+  _leaf_tree_life_Prefab: {fileID: 771161153445615493, guid: fd6d2f4f6fa0ed34d91446482a40c628, type: 3}
+  _heart_black_dragon: {fileID: 7230150898668729009, guid: af0d00fb6d81fb346bc841cdf7fc633c, type: 3}
+  _explosive_potion: {fileID: 8733800021369694767, guid: cf96a9354d29a1449a3692178a4fef5b, type: 3}
+  _fire_poison_potion: {fileID: 4995880641505120729, guid: cef0a61084ae5f14b955cfa69b85118a, type: 3}
+  _tornado_potion: {fileID: 5277866392509861351, guid: 0a59f4c48ec2d41489f37dc71da54886, type: 3}
+  _gap_potion: {fileID: 3850824806595956366, guid: 48d3ea61a8dd3344493af239627530e5, type: 3}
+  _blue_flame_potion: {fileID: 1957814147211300290, guid: 88cddc4a769c925499ede5b43b5f1485, type: 3}
+  _infernal_potion: {fileID: 7530193334946628187, guid: 2c599ebf6c4c2734ab4683b584b20758, type: 3}
+  _summoning_potion: {fileID: 4250393322969867316, guid: 9bcea5a3b3da1364d8eaa94dd6e4c937, type: 3}
+--- !u!54 &458261869163600371
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458261869163600370}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0.1
+  m_AngularDrag: 0.3
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!64 &2305515631801994375
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458261869163600370}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!135 &3005128905746279189
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458261869163600370}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 0.01
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &5836644136358708872
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458261869163600370}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0}

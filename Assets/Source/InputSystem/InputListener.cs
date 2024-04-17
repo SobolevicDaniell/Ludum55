@@ -1,4 +1,5 @@
 using System;
+using ItemSystem;
 using PlayerSystem;
 using UnityEngine;
 
@@ -8,17 +9,30 @@ namespace InputSystem
     {
         private const string Horizontal = "Horizontal";
         private const string Vertical = "Vertical";
+        private bool _canMove = true;
         private Movement _movement;
         private Player _player;
+        private BookSystem _bookSystem;
 
-        public void Construct(Player player, Movement movement)
+        public void Construct(Player player, Movement movement, BookSystem bookSystem)
         {
             _player = player;
             _movement = movement;
+            _bookSystem = bookSystem;
+            bookSystem.startCamera += ChangeMoveState;
+            bookSystem.stopCamera += ChangeMoveState;
+        }
+
+        private void ChangeMoveState()
+        {
+            _canMove = !_canMove;
         }
         private void FixedUpdate()
         {
-            ReadMove();
+            if (_canMove)
+            {
+                ReadMove();
+            }
         }
 
         private void ReadMove()
