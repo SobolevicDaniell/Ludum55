@@ -5,107 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f48b138d-b638-413a-9afc-cdb457d9ca30" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ludum55/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ludum55/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ludum55/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ludum55/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ludum55/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ludum55/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ludum55/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ludum55/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Ludum55/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ludum55/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Materials/Plane.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Materials/Plane.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Materials/Plane.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Materials/Plane.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Materials/PlayerMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Materials/PlayerMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Materials/PlayerMaterial.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Materials/PlayerMaterial.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Materials/Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Materials/Scene.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Materials/Scene.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Materials/Scene.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Materials/Table.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Materials/Table.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Materials/Table.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Materials/Table.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Scenes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Prefabs/Main Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Prefabs/Main Camera.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Prefabs/Model.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Prefabs/Model.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Presentation/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Scenes/Game.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Scenes/Game.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Scenes/TestMovementScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Scenes/TestMovementScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Scenes/TestMovementScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Scenes/TestMovementScene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/No Name.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/No Name.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/No Name.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/No Name.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/morkovka_AO.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/morkovka_AO.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/morkovka_Albedo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/morkovka_Albedo.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/morkovka_Emission.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/morkovka_Emission.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/morkovka_Height.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/morkovka_Height.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/morkovka_Metal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/morkovka_Metal.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/morkovka_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/morkovka_Normal.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/morkovka_tex.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Carrot/morkovka_tex.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/No Name.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/No Name.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/No Name.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/No Name.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_ao.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_ao.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_curve.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_curve.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_normal.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_normal.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_BaseColor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_BaseColor.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_BaseMap.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_BaseMap.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_Emissive 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_Emissive 1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_Emissive.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_Emissive.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_Height.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_Height.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_MaskMap.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_MaskMap.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_Metallic.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_Metallic.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_Normal.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_Roughness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/Coin/monetka_tex_monetka_Roughness.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/No Name.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/No Name.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/No Name.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/No Name.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/monetka_AO.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/monetka_AO.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/monetka_Albedo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/monetka_Albedo.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/monetka_Emission.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/monetka_Emission.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/monetka_Height.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/monetka_Height.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/monetka_Metal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/monetka_Metal.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/monetka_normal.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/monetka_normal.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/monetka_tex.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Presentation/Textures/CoinV2/monetka_tex.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Core.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Core.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Core/Bootstrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Core/Bootstrapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Core/Bootstrapper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Core/Bootstrapper.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/InputSystem.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/InputSystem.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/InputSystem/InputListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/InputSystem/InputListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/InputSystem/InputListener.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/InputSystem/InputListener.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/PlayerSystem.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/PlayerSystem.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/PlayerSystem/Camera.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/PlayerSystem/Camera.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/PlayerSystem/CameraHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/PlayerSystem/CameraHolder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/PlayerSystem/CameraHolder.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/PlayerSystem/CameraHolder.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/PlayerSystem/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/PlayerSystem/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/PlayerSystem/Movement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/PlayerSystem/Movement.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/PlayerSystem/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/PlayerSystem/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/PlayerSystem/Player.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/PlayerSystem/Player.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Support.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Support.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/MemorySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/MemorySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/VersionControlSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VersionControlSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/CreaionSystem/MaterialObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/CreaionSystem/MaterialObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilds/Build.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Bilds/Build.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilds/Build/Bilds.data" beforeDir="false" afterPath="$PROJECT_DIR$/Bilds/Build/Bilds.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bilds/TemplateData.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,27 +34,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "ArtPrototipe",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ArtPrototipe&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\fiest\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\fiest\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\fiest\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\fiest\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\fiest\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\fiest\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.35f1\Editor\Unity.exe" />
@@ -195,7 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1712999131297</updated>
       <workItem from="1712999133843" duration="5723000" />
-      <workItem from="1713343239347" duration="2950000" />
+      <workItem from="1713343239347" duration="3674000" />
+      <workItem from="1713349225119" duration="167000" />
     </task>
     <servers />
   </component>

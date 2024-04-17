@@ -30,6 +30,11 @@ public class MaterialObject : MonoBehaviour
         MeshFilter meshFilter = GetComponent<MeshFilter>();
         MeshCollider meshCollider = GetComponent<MeshCollider>();
 
+        if (gameObject.GetComponent<MaterialObject>()._material == Materials.none)
+        {
+            Destroy(gameObject);
+        }
+
         if (meshFilter != null && meshCollider != null)
         {
             GameObject prefab = GetPrefabByMaterial(_material); // Получаем соответствующий префаб по материалу
@@ -62,6 +67,8 @@ public class MaterialObject : MonoBehaviour
     {
         switch (material)
         {
+            case Materials.none:
+                return null;
             case Materials.sulfur:
                 return _sulfur;
             case Materials.coal:
@@ -233,6 +240,7 @@ public class MaterialObject : MonoBehaviour
 
     public enum Materials
     {
+        none,
         sulfur,
         coal,
         mercury,

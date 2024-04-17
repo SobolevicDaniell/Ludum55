@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39ae94d12834f934dba31cac6133dee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _material: 1
+  _material: 0
   _newObject: {fileID: 458261869163600370}
   _sulfur: {fileID: 7260364184674340084, guid: ecb18c1f1c5830842b067cc1e40c9bef, type: 3}
   _coal: {fileID: 6052966999169654339, guid: 1e3573632fb5d9942ad80c5ff314fe72, type: 3}
