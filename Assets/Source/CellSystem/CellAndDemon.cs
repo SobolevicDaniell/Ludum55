@@ -120,7 +120,7 @@ public class CellAndDemon : MonoBehaviour
     {
         _audioSource.PlayOneShot(_demon);
         Vector3 spawnPosition = _demonSpawnPosition.transform.position;
-        Instantiate(_demonPrefab, spawnPosition, Quaternion.identity);
+        Instantiate(_demonPrefab, spawnPosition, Quaternion.Euler(0f,0f,-90f));
     }
 
     private void SpawnCoin(int count)
